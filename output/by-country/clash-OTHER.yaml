@@ -5,48 +5,50 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 8.47.69.0
+  server: 104.21.236.63
   port: 443
   udp: true
-  type: trojan
-  password: humanity
-  sni: www.pleadcourt.org
+  type: vless
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  tls: true
+  servername: u.srilankangrill.online
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /assignment
+    path: /
+    headers:
+      Host: u.srilankangrill.online
 - name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: jp4.998998.best
+  server: 104.16.10.116
   port: 443
   udp: true
-  type: vmess
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   tls: true
-  servername: nat12.9966338.xyz
+  servername: u.srilankangrill.online
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /vvvvvvvvv
+    path: /
     headers:
-      Host: nat12.9966338.xyz
+      Host: u.srilankangrill.online
 - name: 🌐 其他地区 (Other) 03 - xiaohe
-  server: jp4.998998.best
+  server: 104.16.10.189
   port: 443
   udp: true
-  type: vmess
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   tls: true
-  servername: nat12.9966338.xyz
+  servername: u.srilankangrill.online
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /vvvvvvvvv
+    path: /
     headers:
-      Host: nat12.9966338.xyz
+      Host: u.srilankangrill.online
 proxy-groups:
 - name: PROXIES
   type: select
