@@ -19,7 +19,18 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
 - name: 🇦🇹 奥地利 (Austria) 03 - xiaohe
-  server: 178.22.31.72
+  server: 154.47.19.225
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇦🇹 奥地利 (Austria) 04 - xiaohe
+  server: 178.22.31.171
   port: 443
   udp: true
   type: vless
@@ -31,17 +42,6 @@ proxies:
     short-id: 41ae8e266bc3346f
   servername: at1.japancase.site
   client-fingerprint: firefox
-- name: 🇦🇹 奥地利 (Austria) 04 - xiaohe
-  server: 154.47.19.225
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
