@@ -6,16 +6,13 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "172.67.199.126",
-      "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "server": "103.31.4.75",
+      "server_port": 8443,
+      "uuid": "9443badf-414f-4b12-b19a-7cc2c7431163",
       "tls": {
         "enabled": true,
-        "server_name": "fast.145779.xyz",
+        "server_name": "moz.ar-marz.fun",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -23,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/ws-tesla",
+        "path": "/man",
         "headers": {
-          "Host": "fast.145779.xyz"
+          "Host": "moz.ar-marz.fun"
         }
       }
     },
